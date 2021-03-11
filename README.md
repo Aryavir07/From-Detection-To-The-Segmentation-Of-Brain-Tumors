@@ -34,6 +34,9 @@ Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/190
 - The output produced by the image segmentation model is called MASK of the image.
 - Mask is presented by associating pixel values with their coordinates like [[0,0],[0,0]] for black image shape.
 - to represent this MASK we flatten it as [0,0,0,0].
+*Visualization*
+![download](https://user-images.githubusercontent.com/42632417/110747969-1e80d700-8265-11eb-9139-a7d7d6063d6b.png)
+
 
 ## Deep Learning Pipeline
 ![Capture](https://user-images.githubusercontent.com/42632417/110747432-62bfa780-8264-11eb-9a7e-ed64ad0ece4e.GIF)
