@@ -4,6 +4,8 @@
 - This would reduced reduce the cost of cancer diagnosis and help in early diagnosis of tumors which would essentially be a life saver. 
 - Dataset contains 3930 Brain MRI scans in .tif format along with their brain tumor location.
 
+**Dataset** : https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
+
 ## How?
 - Project is based on Image segmentation
 - The goal of image segmentation is to understand and extract information from images at the pixel-level.
