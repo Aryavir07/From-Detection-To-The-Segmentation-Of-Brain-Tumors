@@ -42,5 +42,5 @@ Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/190
 ![Capture](https://user-images.githubusercontent.com/42632417/110747432-62bfa780-8264-11eb-9a7e-ed64ad0ece4e.GIF)
 Image credit : Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
 
-# final results
+# Final results
 ![download](https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png)
