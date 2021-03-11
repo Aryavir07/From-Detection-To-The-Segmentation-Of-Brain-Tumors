@@ -47,7 +47,16 @@ Image credit : Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
 # Final results
 ![download](https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png)
 
-# How to use?
+## Prerequisites
+- tensorflow 2.0
+- numpy 
+- pandas
+- seaborn
+- scikit learn
+- keras
+- matplotlib and cv2
+- 
+## How to use?
 - git clone this repo
 - download dataset from above link
 - make sure all requirements are installed
