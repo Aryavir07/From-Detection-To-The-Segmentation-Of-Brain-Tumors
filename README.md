@@ -27,3 +27,10 @@ Explanation: https://idiotdeveloper.com/what-is-resunet/
 - this helps to ensure that features learned while contracting are used while reconstructing the image.
 - Bottleneck : The bottleneck block, serves as a connection between contraction path and expansion path.The block takes the input and then passes through
 a res-block followed by 2 x 2 up-sampling convolution layers.
+
+Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/1904.00592
+
+### What is Mask?
+- The output produced by the image segmentation model is called MASK of the image.
+- Mask is presented by associating pixel values with their coordinates like [[0,0],[0,0]] for black image shape.
+- to represent this MASK we flatten it as [0,0,0,0].
