@@ -59,6 +59,7 @@ Image credit : Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
 ## How to use?
 - git clone this repo
 - download dataset from above link
+- check for requirements.
 - make sure all requirements are installed
 - open Detecting Brain Tumor Using MRI Scan.ipynb file
 - rerun all cells.
