@@ -42,7 +42,6 @@ Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/190
 
 ## Deep Learning Pipeline
 ![Capture](https://user-images.githubusercontent.com/42632417/110747432-62bfa780-8264-11eb-9a7e-ed64ad0ece4e.GIF)
-Image credit : Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
 
 # Final results
 ![download](https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png)
@@ -63,3 +62,5 @@ Image credit : Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
 - make sure all requirements are installed
 - open Detecting Brain Tumor Using MRI Scan.ipynb file
 - rerun all cells.
+# Reference:
+Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
