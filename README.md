@@ -64,6 +64,7 @@ Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/190
 - rerun all cells.
 # Reference:
 Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
+<br>
 ``
 @article{diakogiannis2020resunet,
   title={ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data},
