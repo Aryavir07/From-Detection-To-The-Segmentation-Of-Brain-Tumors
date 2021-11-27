@@ -64,3 +64,14 @@ Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/190
 - rerun all cells.
 # Reference:
 Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
+``
+@article{diakogiannis2020resunet,
+  title={ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data},
+  author={Diakogiannis, Foivos I and Waldner, Fran{\c{c}}ois and Caccetta, Peter and Wu, Chen},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={162},
+  pages={94--114},
+  year={2020},
+  publisher={Elsevier}
+}
+``
