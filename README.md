@@ -1,5 +1,6 @@
 # Detecting-Brain-Tumor-Using-Deep-Learning
 ## Project Overview
+- Detecting Brain Tumor using Res-U-Net architecture. This would reduce the cost of cancer diagnosis and help in the early diagnosis of tumors which would essentially be a life saver.
 - Goal of this project is to detect and localize brain tumors based on MRI scans using deep learning model.
 - This would reduce the cost of cancer diagnosis and help in early diagnosis of tumors which would essentially be a life saver. 
 - Dataset contains 3930 Brain MRI scans in .tif format along with their brain tumor location.
