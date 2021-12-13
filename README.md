@@ -47,6 +47,10 @@ Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/190
 # Final results
 ![download](https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png)
 
+## TODO:
+- Implementing other deep learning models and comparing their results
+- Deployment
+
 ## Prerequisites
 - tensorflow 2.0
 - numpy 
