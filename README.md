@@ -9,21 +9,28 @@
   </a>
 </p>
 
-## Repository overview
-- Detecting Brain Tumor using <a href="https://arxiv.org/abs/1904.00592" target="_blank"><strong>Deep Residual UNET</strong></a> architecture. This would reduce the cost of cancer diagnosis and help in the early diagnosis of tumors which would essentially be a life saver. This notebook uses <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation" target="_blank"><strong>Dataset</strong></a> from Kaggle containing 3930 brain MRI scans in **.tif** format along with their brain tumor location and patients information.
+<h2 align="center">Repository overview✔</h2>
 
-## How?
-- Project is based on Image segmentation
-- The goal of image segmentation is to understand and extract information from images at the pixel-level.
-- Image Segmentation can be used for object recognition and localization which offers tremendous value in many applications such as medical imaging and self-driving cars etc.
-- Using image segmentation a neural network will be trained to produced pixel-wise mask of the image.
+- <a href="https://arxiv.org/abs/1904.00592" target="_blank"><strong>Deep Residual UNET</strong></a> architecture for Brain Tumor Detection. This would lower the cost of cancer diagnostics and aid in the early detection of malignancies, which would effectively be a lifesaver. <br>To categorise MRI images including brain malignancies, this notebook provides implementations of deep learning models such as *ResNet50, VGG16 (through transfer learning), and CNN architectures*. After training on **100 epochs**, the results showed **ResNet50** and **VGG16** gave very similar results in classification. <br>This notebook uses <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation" target="_blank"><strong>Dataset</strong></a> from Kaggle containing 3930 brain MRI scans in **.tif** format along with their brain tumor location and patients information.
+<br>
+<u>This notebook😊 contains line by line code explanation and many Q&As 🙌</u>
+<br>
+
+## Working 🙄
+- The project is based on image segmentation, and the purpose of image segmentation is to comprehend and extract information from images at the pixel level.
+- Image segmentation may be used for object detection and localisation, which has a wide range of applications including medical imaging and self-driving automobiles.
+- The initial portion of this project implements deep learning models such as ResNet50, two distinct architectures of the fine-tuned VGG16 model, and a rudimentary CNN model to categorise MRI scans containing brain tumor.
+- In the second part, **RESUNET** model is implemented to localize brain tumor from classified MRI scans.
+- Using this image segmentation neural network is trained to generate pixel-wise masks of the images.
 - Modern image segmentation techniques are based on deep learning approach which makes use of common architectures such as CNN, FCNs (Fully Convolution Networks) and Deep Encoders Decoders.
-- Here in this project, Res-U-Net architecture is used to perform this task.
-
 # ResUNet
 ![ResUnet](https://user-images.githubusercontent.com/42632417/110745770-cac0be80-8261-11eb-87d3-894861b11a4c.png)
-Source: https://www.researchgate.net/figure/Illustration-of-the-proposed-Res-Unet-architecture-as-the-generator_fig2_327748708
-Explanation: https://idiotdeveloper.com/what-is-resunet/
+
+<p align="center">
+  <a href="https://www.researchgate.net/figure/Illustration-of-the-proposed-Res-Unet-architecture-as-the-generator_fig2_327748708" target="_blank">Source</a> 
+  and <a href="https://idiotdeveloper.com/what-is-resunet/" target="_blank">Explanation</a>
+</p>
+
 - ResUNet architecture combines UNET backbone architecture with residual blocks to overcome vanishing gradient problem present in deep architecture.
 - ResUNet consists of three parts:
 1. Encoder or contracting Path
