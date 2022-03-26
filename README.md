@@ -10,12 +10,7 @@
 </p>
 
 ## Repository overview
-- Detecting Brain Tumor using Res-U-Net architecture. This would reduce the cost of cancer diagnosis and help in the early diagnosis of tumors which would essentially be a life saver.
-- Goal of this project is to detect and localize brain tumors based on MRI scans using deep learning model.
-- This would reduce the cost of cancer diagnosis and help in early diagnosis of tumors which would essentially be a life saver. 
-- Dataset contains 3930 Brain MRI scans in .tif format along with their brain tumor location.
-
-**Dataset** : https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
+- Detecting Brain Tumor using <a href="https://arxiv.org/abs/1904.00592" target="_blank"><strong>Deep Residual UNET</strong></a> architecture. This would reduce the cost of cancer diagnosis and help in the early diagnosis of tumors which would essentially be a life saver. This notebook uses <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation" target="_blank"><strong>Dataset</strong></a> from Kaggle containing 3930 brain MRI scans in **.tif** format along with their brain tumor location and patients information.
 
 ## How?
 - Project is based on Image segmentation
