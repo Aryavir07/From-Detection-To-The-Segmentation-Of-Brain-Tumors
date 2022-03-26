@@ -46,7 +46,7 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 
 ### What is Mask?
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/42632417/110747969-1e80d700-8265-11eb-9139-a7d7d6063d6b.png" height = 400 width = 500></img>
+  <img src="https://user-images.githubusercontent.com/42632417/110747969-1e80d700-8265-11eb-9139-a7d7d6063d6b.png" height = 400 width = 450></img>
 </p>
 <ul>
   <li>The output produced by the image segmentation model is called MASK of the image.</li>
@@ -66,9 +66,7 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 # Reference:
 ```
 **Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
-```
-<br>
-```
+
 @article{diakogiannis2020resunet,
   title={ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data},
   author={Diakogiannis, Foivos I and Waldner, Fran{\c{c}}ois and Caccetta, Peter and Wu, Chen},
@@ -79,3 +77,4 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
   publisher={Elsevier}
 }
 ```
+
