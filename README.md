@@ -14,7 +14,8 @@
 - <a href="https://arxiv.org/abs/1904.00592" target="_blank"><strong>Deep Residual UNET</strong></a> architecture for Brain Tumor Detection. This would lower the cost of cancer diagnostics and aid in the early detection of malignancies, which would effectively be a lifesaver. <br>To categorise MRI images including brain malignancies, this notebook provides implementations of deep learning models such as *ResNet50, VGG16 (through transfer learning), and CNN architectures*. After training on **100 epochs**, the results showed **ResNet50** and **VGG16** gave very similar results in classification. <br>This notebook uses <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation" target="_blank"><strong>Dataset</strong></a> from Kaggle containing 3930 brain MRI scans in **.tif** format along with their brain tumor location and patients information.
 <br>
 <u>This notebook😊 contains line by line code explanation and many Q&As 🙌</u>
-<br>
+
+##
 
 ## Working 🙄
 - The project is based on image segmentation, and the purpose of image segmentation is to comprehend and extract information from images at the pixel level.
@@ -23,7 +24,9 @@
 - In the second part, **RESUNET** model is implemented to localize brain tumor from classified MRI scans.
 - Using this image segmentation neural network is trained to generate pixel-wise masks of the images.
 - Modern image segmentation techniques are based on deep learning approach which makes use of common architectures such as CNN, FCNs (Fully Convolution Networks) and Deep Encoders Decoders.
-# ResUNet
+
+
+### ResUNet
 ![ResUnet](https://user-images.githubusercontent.com/42632417/110745770-cac0be80-8261-11eb-87d3-894861b11a4c.png)
 
 <p align="center">
@@ -31,58 +34,41 @@
   and <a href="https://idiotdeveloper.com/what-is-resunet/" target="_blank">Explanation</a>
 </p>
 
-- ResUNet architecture combines UNET backbone architecture with residual blocks to overcome vanishing gradient problem present in deep architecture.
-- ResUNet consists of three parts:
-1. Encoder or contracting Path
-2. Bottleneck
-3. Decoder or expansive path
+ResUNet architecture combines UNET backbone architecture with residual blocks to overcome vanishing gradient problem present in deep architecture.
+ResUNet consists of **three** parts:
 
-- Encoder : The contraction path consist of several contraction blocks, each block takes an input that passes through res-blocks followed by 2x2 max pooling. Feature maps after each block doubles, which helps the model learn complex features effectively.
-- Decoder : In decoder each block takes in the up-sampled input from prevoius layer and concatenates with the corresponding output features from the res-block in the contraction path. this is then passed through the res-block followed by 2x2 upsampling convolution layers.
-- this helps to ensure that features learned while contracting are used while reconstructing the image.
-- Bottleneck : The bottleneck block, serves as a connection between contraction path and expansion path.The block takes the input and then passes through
-a res-block followed by 2 x 2 up-sampling convolution layers.
-
-Other resources : https://arxiv.org/abs/1505.04597 and https://arxiv.org/abs/1904.00592
+<ul>
+  <li>Encoder : The contraction path consist of several contraction blocks, each block takes an input that passes through res-blocks followed by 2x2 max pooling. Feature maps after each block doubles, which helps the model learn complex features effectively.</li>
+  <li>Decoder : In decoder each block takes in the up-sampled input from prevoius layer and concatenates with the corresponding output features from the res-block in the contraction path. this is then passed through the res-block followed by 2x2 upsampling convolution layers this helps to ensure that features learned while contracting are used while reconstructing the image.</li>
+  <li>Bottleneck : The bottleneck block, serves as a connection between contraction path and expansion path.The block takes the input and then passes through
+a res-block followed by 2 x 2 up-sampling convolution layers.</li>
+</ul>
 
 ### What is Mask?
-- The output produced by the image segmentation model is called MASK of the image.
-- Mask is presented by associating pixel values with their coordinates like [[0,0],[0,0]] for black image shape.
-- to represent this MASK we flatten it as [0,0,0,0].
-*Visualization*
-![download](https://user-images.githubusercontent.com/42632417/110747969-1e80d700-8265-11eb-9139-a7d7d6063d6b.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/42632417/110747969-1e80d700-8265-11eb-9139-a7d7d6063d6b.png" height = 400 width = 500></img>
+</p>
+<ul>
+  <li>The output produced by the image segmentation model is called MASK of the image.</li>
+  <li>Mask is presented by associating pixel values with their coordinates like *[[0,0],[0,0]]* for black image shape and to represent this MASK we flatten it as *[0,0,0,0]*.</li>
+</ul>
 
+## Final Results
 
-## Deep Learning Pipeline
-![Capture](https://user-images.githubusercontent.com/42632417/110747432-62bfa780-8264-11eb-9a7e-ed64ad0ece4e.GIF)
-
-# Final results
-![download](https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png)
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png" height = 500 width = 800 > </img>
+</p>
 
 ## TODO:
 - Implementing other deep learning models and comparing their results
 - Deployment
 
-## Prerequisites
-- tensorflow 2.0
-- numpy 
-- pandas
-- seaborn
-- scikit learn
-- keras
-- matplotlib and cv2
-- 
-## How to use?
-- git clone this repo
-- download dataset from above link
-- check for requirements.
-- make sure all requirements are installed
-- open Detecting Brain Tumor Using MRI Scan.ipynb file
-- rerun all cells.
 # Reference:
-Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
+```
+**Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
+```
 <br>
-``
+```
 @article{diakogiannis2020resunet,
   title={ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data},
   author={Diakogiannis, Foivos I and Waldner, Fran{\c{c}}ois and Caccetta, Peter and Wu, Chen},
@@ -92,4 +78,4 @@ Ryan Ahmed [ https://www.coursera.org/instructor/~48777395 ]
   year={2020},
   publisher={Elsevier}
 }
-``
+```
