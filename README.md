@@ -1,5 +1,15 @@
-# Detecting-Brain-Tumor-Using-Deep-Learning
-## Project Overview
+<h2 align="center"><i>Brain Tumor Detection Using Deep Learning</i></h2>
+<p align="center">
+
+  <a href="https://github.com/Aryavir07/Detecting-Brain-Tumor-Using-Deep-Learning/blob/main/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
+  </a>
+  <a href="https://twitter.com/aryaveersingh07">
+    <img alt="Twitter: Aryaveer Singh" src="https://img.shields.io/twitter/follow/AryaveerSingh.svg?style=social" target="_blank" />
+  </a>
+</p>
+
+## Repository overview
 - Detecting Brain Tumor using Res-U-Net architecture. This would reduce the cost of cancer diagnosis and help in the early diagnosis of tumors which would essentially be a life saver.
 - Goal of this project is to detect and localize brain tumors based on MRI scans using deep learning model.
 - This would reduce the cost of cancer diagnosis and help in early diagnosis of tumors which would essentially be a life saver. 
