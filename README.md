@@ -60,7 +60,7 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 </p>
 
 ## TODO:
-- Implementing other deep learning models and comparing their results
+- Implementing other models such as segnet, FCN etc and comparing their results. 2. Deployment
 - Deployment
 
 # Reference:
