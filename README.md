@@ -11,7 +11,7 @@
 
 <h2 align="center">Repository overview✔</h2>
 
-- <a href="https://arxiv.org/abs/1904.00592" target="_blank"><strong>Using ResUNET</strong></a> architecture for Brain Tumor Detection. This would lower the cost of cancer diagnostics and aid in the early detection of malignancies, which would effectively be a lifesaver. <br>To categorise MRI images including brain malignancies, this notebook provides implementations of deep learning models such as *ResNet50, VGG16 (through transfer learning), and CNN architectures*. After training on **100 epochs**, the results showed **ResNet50** and **VGG16** gave very similar results in classification. <br>This notebook uses <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation" target="_blank"><strong>Dataset</strong></a> from Kaggle containing 3930 brain MRI scans in **.tif** format along with their brain tumor location and patients information.
+- <a href="https://arxiv.org/abs/1904.00592" target="_blank"><strong>Using ResUNET</strong></a> and transfer learnin for Brain Tumor Detection. This would lower the cost of cancer diagnostics and aid in the early detection of malignancies, which would effectively be a lifesaver. <br>To categorise MRI images including brain malignancies, this notebook provides implementations of deep learning models such as *ResNet50, VGG16 (through transfer learning), and CNN architectures*. After training on **100 epochs**, the results showed **ResNet50** and **VGG16** gave very similar results in classification. <br>This notebook uses <a href="https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation" target="_blank"><strong>Dataset</strong></a> from Kaggle containing 3930 brain MRI scans in **.tif** format along with their brain tumor location and patients information.
 <br>
 <u>This notebook😊 contains line by line code explanation and many Q&As 🙌</u>
 
@@ -66,6 +66,8 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 # Reference:
 ```
 **Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
+
+
 
 @article{diakogiannis2020resunet,
   title={ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data},
