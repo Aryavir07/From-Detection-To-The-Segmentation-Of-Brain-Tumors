@@ -15,8 +15,6 @@
 <br>
 <u>This notebook😊 contains line by line code explanation and many Q&As 🙌</u>
 
-##
-
 ## Working 🙄
 - The project is based on image segmentation, and the purpose of image segmentation is to comprehend and extract information from images at the pixel level.
 - Image segmentation may be used for object detection and localisation, which has a wide range of applications including medical imaging and self-driving automobiles.
@@ -63,7 +61,7 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 - Implementing other models such as segnet, FCN etc and comparing their results. 2. Deployment
 - Deployment
 
-# Reference:
+# Citations and Original Authors:
 ```
 **Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
 
