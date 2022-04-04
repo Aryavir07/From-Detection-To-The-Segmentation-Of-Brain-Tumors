@@ -57,10 +57,6 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
   <img src = "https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png" height = 450 width = 750 > </img>
 </p>
 
-## Furture Updates:
-- Implementing other models such as segnet, FCN etc and comparing their results. 2. Deployment
-- Deployment
-
 # Citations and Original Authors:
 ```
 **Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
