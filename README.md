@@ -67,8 +67,6 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 ```
 **Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
 
-
-
 @article{diakogiannis2020resunet,
   title={ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data},
   author={Diakogiannis, Foivos I and Waldner, Fran{\c{c}}ois and Caccetta, Peter and Wu, Chen},
