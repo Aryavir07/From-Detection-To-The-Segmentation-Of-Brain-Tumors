@@ -44,22 +44,22 @@ ResUNet consists of **three** parts:
 a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 </ul>
 
-### What is Mask?
+### Masks
 <p align="center">
   <img src="https://user-images.githubusercontent.com/42632417/110747969-1e80d700-8265-11eb-9139-a7d7d6063d6b.png" height = 400 width = 450></img>
 </p>
 <ul>
   <li>The output produced by the image segmentation model is called MASK of the image.</li>
-  <li>Mask is presented by associating pixel values with their coordinates like *[[0,0],[0,0]]* for black image shape and to represent this MASK we flatten it as *[0,0,0,0]*.</li>
+  <li>Mask is presented by associating pixel values with their coordinates like <strong>[[0,0],[0,0]]</strong> for black image shape and to represent this MASK we flatten it as <strong>[0,0,0,0]</strong></li>
 </ul>
 
 ## Final Results
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png" height = 500 width = 800 > </img>
+  <img src = "https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png" height = 450 width = 750 > </img>
 </p>
 
-## TODO:
+## Furture Updates:
 - Implementing other models such as segnet, FCN etc and comparing their results. 2. Deployment
 - Deployment
 
