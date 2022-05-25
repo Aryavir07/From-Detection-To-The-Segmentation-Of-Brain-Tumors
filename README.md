@@ -15,7 +15,7 @@
 <br>
 <u>This notebook😊 contains line by line code explanation and many Q&As 🙌</u>
 
-## Working 🙄
+## Working
 - The project is based on image segmentation, and the purpose of image segmentation is to comprehend and extract information from images at the pixel level.
 - Image segmentation may be used for object detection and localisation, which has a wide range of applications including medical imaging and self-driving automobiles.
 - The initial portion of this project implements deep learning models such as ResNet50, two distinct architectures of the fine-tuned VGG16 model, and a rudimentary CNN model to categorise MRI scans containing brain tumor.
@@ -66,7 +66,7 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
   <img src = "https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png" height = 450 width = 750 > </img>
 </p>
 
-##### Citations and Original Authors:
+#### Citations and Original Authors:
 ```
 **Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
 
