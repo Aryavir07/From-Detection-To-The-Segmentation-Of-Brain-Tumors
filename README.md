@@ -51,13 +51,22 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
   <li>Mask is presented by associating pixel values with their coordinates like <strong>[[0,0],[0,0]]</strong> for black image shape and to represent this MASK we flatten it as <strong>[0,0,0,0]</strong></li>
 </ul>
 
-## Final Results
+### Performance
+
+| **Model Name** | **Accuracy** | **Balanced Accuracy** | **Recall** | **F1 Weighted** | **F1 Average** | **Precision** |
+|:--------------:|:------------:|:---------------------:|:----------:|:---------------:|:--------------:|:-------------:|
+|       CNN      |     88.61    |         87.13         |   88.616   |      88.60      |      88.61     |     88.61     |
+|  VGG16 Model 1 |     82.14    |         82.68         |    82.14   |      83.39      |      82.13     |      8.14     |
+|  VGG16 Model 2 |     83.03    |         81.59         |    83.03   |      83.18      |      83.03     |     83.03     |
+|    ResNet50    |     98.88    |         98.71         |    98.88   |      98.88      |      98.88     |     98.88     |
+
+### Final Results
 
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/42632417/110748369-9fd86980-8265-11eb-8308-6639fc6fc63e.png" height = 450 width = 750 > </img>
 </p>
 
-# Citations and Original Authors:
+##### Citations and Original Authors:
 ```
 **Ryan Ahmed** [ https://www.coursera.org/instructor/~48777395 ]
 
