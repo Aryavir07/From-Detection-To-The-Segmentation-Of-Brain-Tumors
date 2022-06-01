@@ -91,7 +91,7 @@ retry-requests==1.0.1
 rsa==4.8
 schedule==1.1.0
 scikit-image==0.18.3
-scikit-learn-intelex==2021.20210714.120553
+scikit-learn-intelex==2021.6.0
 simplegeneric==0.8.1
 sip==4.19.13
 Sphinx==4.2.0
