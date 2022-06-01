@@ -21,7 +21,6 @@ comtypes==1.1.10
 cssselect==1.1.0
 cycler==0.10.0
 cytoolz==0.11.0
-daal4py==2021.5.3
 dask==2021.10.0
 dataclasses==0.6
 elastic-transport==8.1.2
@@ -83,7 +82,6 @@ retry-requests==1.0.1
 rsa==4.8
 schedule==1.1.0
 scikit-image==0.18.3
-scikit-learn-intelex==2021.5.3
 simplegeneric==0.8.1
 sip==6.6.1
 statsmodels==0.12.2
