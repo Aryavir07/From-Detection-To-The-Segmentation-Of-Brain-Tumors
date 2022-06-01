@@ -92,7 +92,7 @@ retry-requests==1.0.1
 rsa==4.8
 schedule==1.1.0
 scikit-image==0.18.3
-scikit-learn-intelex==2021.6.0
+scikit-learn-intelex==2021.5.3
 simplegeneric==0.8.1
 sip==6.6.1
 statsmodels==0.12.2
