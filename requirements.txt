@@ -49,7 +49,7 @@ inflection==0.5.1
 keras==2.9.0
 Keras-Preprocessing==1.1.2
 libclang==14.0.1
-llvmlite==0.37.0
+llvmlite==0.38.1
 locket==0.2.1
 log-symbols==0.0.14
 Markdown==3.3.7
