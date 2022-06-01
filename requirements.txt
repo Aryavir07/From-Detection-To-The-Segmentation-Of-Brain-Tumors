@@ -12,8 +12,7 @@ backports.weakref==1.0.post1
 bkcharts==0.2
 black==19.10b0
 boto==2.49.0
-brotlipy==0.7.0
-bsi-sentiment==0.0.4
+brotlipy==0.7.
 cachetools==5.1.0
 cchardet==2.1.7
 certifi==2021.10.8
@@ -107,8 +106,6 @@ tensorflow-io-gcs-filesystem==0.26.0
 termcolor==1.1.0
 terminado==0.9.4
 textblob==0.15.3
-tqdm==4.54.0
-tweepy==4.9.0
 unicodecsv==0.14.1
 urllib3==1.26.7
 webencodings==0.5.1
