@@ -21,7 +21,7 @@ comtypes==1.1.10
 cssselect==1.1.0
 cycler==0.10.0
 cytoolz==0.11.0
-daal4py==2021.3.0
+daal4py==2021.5.3
 dask==2021.10.0
 dataclasses==0.6
 elastic-transport==8.1.2
