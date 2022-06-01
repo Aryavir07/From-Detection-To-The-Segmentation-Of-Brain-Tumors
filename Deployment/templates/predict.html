@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='./style.css') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRI classification</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <form class="form-inline" action="/" >
+      <button type="submit" value="Submit" class="btn btn-link" style="text-decoration: none; font-family: 'Roboto', sans-serif; color:aliceblue">HOME</button>
+    </form>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="card text-center  mt-5 shadow-lg p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-header">Prediction</h5>
+        <div class="row justify-content-center" style="margin-top: 50px">
+          <div class="column">
+              <img src="../static/predicted/image1.png" class="border shadow-lg p-3 mb-5 bg-white rounded" alt="Originial Image" style="width:100%">
+            </div>
+  
+          <div class="column">
+            <img src="../static/predicted/image.png" alt="Predicted Image" class="border shadow-lg p-3 mb-5 bg-white rounded" style="width:100%">
+          </div>
+          
+          <div class="column">
+            <img src="../static/predicted/image2.png" alt="Mask" class="border shadow-lg p-3 mb-5 bg-white rounded" style="width:100%">
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+        
+      
+       <script src="{{ url_for('static',filename='./script.js') }}"></script>
+       
+</body>
+
+</html>
