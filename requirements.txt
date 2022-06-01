@@ -86,7 +86,6 @@ sip==6.6.1
 statsmodels==0.12.2
 tables==3.6.1
 TBB==2021.6.0
-tensorboard==2.9.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow-cpu==2.9.1
