@@ -74,7 +74,6 @@ pycares==4.1.2
 pycosat==0.6.3
 pycurl==7.44.1
 pyls-spyder==0.4.0
-pyodbc===4.0.32
 pyperclip==1.8.2
 pyquery==1.4.3
 pyreadline==2.1
