@@ -19,9 +19,6 @@ cchardet==2.1.7
 certifi==2021.10.8
 clyent==1.2.1
 comtypes==1.1.10
-conda==4.10.3
-conda-build==3.21.6
-conda-verify==3.4.2
 cssselect==1.1.0
 cycler==0.10.0
 cytoolz==0.11.0
