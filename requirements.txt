@@ -43,7 +43,7 @@ google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 googletransx==2.4.2
 grpcio==1.46.3
-glob==3.5
+glob2
 halo==0.0.31
 inflection==0.5.1
 keras==2.9.0
