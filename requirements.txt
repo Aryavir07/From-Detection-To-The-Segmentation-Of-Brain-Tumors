@@ -87,8 +87,8 @@ tables==3.6.1
 TBB==2021.6.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow-cpu==2.9.1
-tensorflow-estimator==2.9.0
+tensorflow-cpu==2.1
+tensorflow-estimator==2.1
 tensorflow-io-gcs-filesystem==0.26.0
 termcolor==1.1.0
 terminado==0.9.4
