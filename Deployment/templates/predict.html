@@ -20,7 +20,9 @@
   <div class="container-fluid">
     <div class="card text-center  mt-5 shadow-lg p-3 mb-5 bg-white rounded">
       <div class="card-body">
-        <h5 class="card-header">Prediction</h5>
+        <h5 class="card-header">Prediction {{filename}}
+          <a class="btn-sm btn-secondary" href="{{url_for('home')}}" style="float:right; text-decoration:none">Predict Again</a>
+        </h5>
         <div class="row justify-content-center" style="margin-top: 50px">
           <div class="column">
               <img src="../static/predicted/image1.png" class="border shadow-lg p-3 mb-5 bg-white rounded" alt="Originial Image" style="width:100%">
