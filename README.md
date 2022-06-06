@@ -68,8 +68,9 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 
 ### Deployment UML
 
-![Models UML drawio](https://user-images.githubusercontent.com/42632417/172130858-223a8af1-ed2c-4397-b52d-99c15d4d09cf.svg)
-
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/42632417/172130858-223a8af1-ed2c-4397-b52d-99c15d4d09cf.svg"> </img>
+</p>
 
 #### Citations and Original Authors:
 ```
