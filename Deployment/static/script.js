@@ -45,7 +45,7 @@ document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
   
     // First time - remove the prompt
     if (dropZoneElement.querySelector(".drop-zone__prompt")) {
-      dropZoneElement.querySelector(".drop-zone__prompt").remove();
+        dropZoneElement.querySelector(".drop-zone__prompt").remove();
     }
   
     // First time - there is no thumbnail element, so lets create it
@@ -74,4 +74,4 @@ setTimeout(function () {
   var alerta = document.getElementById("warn");
   alerta.remove();
   clearInterval(tempo);
-}, 6000);
+}, 18000);

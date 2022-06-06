@@ -21,8 +21,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 class Model:
 
     def __init__(self):
-        # to done later
-        pass
+        self.model_path = model_path
     
     @staticmethod
     def model_conv():
@@ -110,8 +109,7 @@ class Model:
         return model
     
     @staticmethod
-    def get_model(model_path:Optional[str] = "./"):
-        
+    def get_model():
         try:
             #Load Model
             with open('./saved_models/classifier-resnet-model.json', 'r') as json_file:

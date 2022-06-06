@@ -3,12 +3,23 @@ html, body {
 	margin: 0;
 	padding: 0;
   }
+
+  @font-face {
+	font-family: 'RoadRage';
+	font-style: normal;
+	font-weight: normal;
+	src: local('RoadRage'), url('http://coding-dude.com/wp/wp-content/uploads/Road_Rage.woff') format('woff') ;
+	}
+
   body {
-	font-family: 'Roboto', sans-serif;
-	background: linear-gradient(to top, #4F6072, #8699AA);
-	/* display: flex;
-	justify-content: center;
-	align-items: center; */
+	color: #7FFFD4;
+	background-color: #FF6347;
+	font-family: "RoadRage";
+	background-image: url("https://cutewallpaper.org/21/3000-x-2000-wallpaper/Synthwave-Background-4K-HD-Desktop-Wallpaper-for-Wide-.jpg");
+	background-color: #FF6347; 
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
   }
   .upload {
 	position: relative;

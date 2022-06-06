@@ -25,7 +25,7 @@ def plot_scan(df_pred:pd.DataFrame):
             plt.savefig('./static/predicted/image2.png', bbox_inches='tight')
             img_ = io.imread(df_pred.image_path[i])
             img_ = cv2.cvtColor(img_, cv2.COLOR_BGR2RGB)
-            img_[predicted_mask == 1] = (0, 255, 0)
+            img_[predicted_mask == 1] = (0, 256, 0)
             img_ = cv2.cvtColor(img_, cv2.COLOR_BGR2GRAY)
             plt.axis('off')
             plt.imshow(predicted_mask)

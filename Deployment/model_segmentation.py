@@ -19,6 +19,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 from loss import tversky, tversky_loss, focal_tversky
 
+
 def upsample_concat(x, skip):
     x = UpSampling2D((2,2))(x)
     merge = Concatenate()([x, skip])
@@ -39,19 +40,19 @@ def resblock(X, f):
 
 
 class Model_Seg:
-    def __init__(self):
-        pass
+    def __init__(self, input_shape = (256,256,3), model_path = './saved_models/ResUNet-model.json'):
+        self.input_shape = input_shape
+        self.model_path = model_path
     
     @staticmethod
-    def build_model_segment():
-        input_shape = (256,256,3)
+    def build_model_segment(self):
+        input_shape = self.input_shape
         X_input = Input(input_shape)
         conv1_in = Conv2D(16,3,activation= 'relu', padding = 'same', kernel_initializer ='he_normal')(X_input)
         conv1_in = BatchNormalization()(conv1_in)
         conv1_in = Conv2D(16,3,activation= 'relu', padding = 'same', kernel_initializer ='he_normal')(conv1_in)
         conv1_in = BatchNormalization()(conv1_in)
         pool_1 = MaxPool2D(pool_size = (2,2))(conv1_in)
-        # pool_1 = tf.reshape
         conv2_in = resblock(pool_1, 32)
         pool_2 = MaxPool2D(pool_size = (2,2))(conv2_in)
         conv3_in = resblock(pool_2, 64)
@@ -74,7 +75,7 @@ class Model_Seg:
         return model_seg
     
     @staticmethod
-    def get_model(model_path:Optional[str] = "./"):
+    def get_model():
         try:
             with open('./saved_models/ResUNet-model.json', 'r') as json_file:
                 json_savedModel= json_file.read()

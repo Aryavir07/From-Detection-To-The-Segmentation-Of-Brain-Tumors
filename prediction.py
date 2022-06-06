@@ -17,7 +17,7 @@ class Prediction:
       path = str(i)
       img = io.imread(path)
       img = img * 1./255.
-      img = cv2.resize(img,(256,256))
+      img = cv2.resize(img, (256,256))
       img = np.array(img, dtype = np.float64)
       img = np.reshape(img, (1,256,256,3))
       is_defect = model.predict(img)
