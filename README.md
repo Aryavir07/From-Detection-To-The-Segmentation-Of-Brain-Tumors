@@ -51,6 +51,12 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
   <li>Mask is presented by associating pixel values with their coordinates like <strong>[[0,0],[0,0]]</strong> for black image shape and to represent this MASK we flatten it as <strong>[0,0,0,0]</strong></li>
 </ul>
 
+### Workflow
+
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/42632417/172188578-c25d31a8-34b1-46a9-ba7b-aa9d0fcc88bc.png" > </img>
+</p>
+
 ### Performance
 
 | **Model Name** | **Accuracy** | **Balanced Accuracy** | **Recall** | **F1 Weighted** | **F1 Average** | **Precision** |
