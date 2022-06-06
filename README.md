@@ -25,7 +25,9 @@
 
 
 ### ResUNet
-![ResUnet](https://user-images.githubusercontent.com/42632417/110745770-cac0be80-8261-11eb-87d3-894861b11a4c.png)
+<p align = "center">
+  <img src ="https://user-images.githubusercontent.com/42632417/110745770-cac0be80-8261-11eb-87d3-894861b11a4c.png"></img>
+</p>
 
 <p align="center">
   <a href="https://www.researchgate.net/figure/Illustration-of-the-proposed-Res-Unet-architecture-as-the-generator_fig2_327748708" target="_blank">Source</a> 
@@ -59,12 +61,16 @@ a res-block followed by 2 x 2 up-sampling convolution layers.</li>
 
 ### Performance
 
-| **Model Name** | **Accuracy** | **Balanced Accuracy** | **Recall** | **F1 Weighted** | **F1 Average** | **Precision** |
-|:--------------:|:------------:|:---------------------:|:----------:|:---------------:|:--------------:|:-------------:|
-|       CNN      |     88.61    |         87.13         |   88.616   |      88.60      |      88.61     |     88.61     |
-|  VGG16 Model 1 |     82.14    |         82.68         |    82.14   |      83.39      |      82.13     |      83.14     |
-|  VGG16 Model 2 |     83.03    |         81.59         |    83.03   |      83.18      |      83.03     |     83.03     |
-|    ResNet50    |     98.88    |         98.71         |    98.88   |      98.88      |      98.88     |     98.88     |
+<p align ="center">
+  
+  | **Model Name** | **Accuracy** | **Balanced Accuracy** | **Recall** | **F1 Weighted** | **F1 Average** | **Precision** |
+  |:--------------:|:------------:|:---------------------:|:----------:|:---------------:|:--------------:|:-------------:|
+  |       CNN      |     88.61    |         87.13         |   88.616   |      88.60      |      88.61     |     88.61     |
+  |  VGG16 Model 1 |     82.14    |         82.68         |    82.14   |      83.39      |      82.13     |      83.14    |
+  |  VGG16 Model 2 |     83.03    |         81.59         |    83.03   |      83.18      |      83.03     |     83.03     |
+  |    ResNet50    |     98.88    |         98.71         |    98.88   |      98.88      |      98.88     |     98.88     |
+  
+</p>
 
 ### Final Results
 
