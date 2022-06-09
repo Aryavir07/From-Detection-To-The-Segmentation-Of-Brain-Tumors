@@ -1,4 +1,4 @@
-<h2 align="center"><i>Brain Tumor Detection Using Deep Learning</i></h2>
+<h2 align="center"><i>Brain Tumor Detection and Segmentation Using Deep Learning</i></h2>
 <p align="center">
 
   <a href="https://github.com/Aryavir07/Detecting-Brain-Tumor-Using-Deep-Learning/blob/main/LICENSE">
