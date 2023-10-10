@@ -4,9 +4,6 @@
   <a href="https://github.com/Aryavir07/Detecting-Brain-Tumor-Using-Deep-Learning/blob/main/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
   </a>
-  <a href="https://twitter.com/aryaveersingh07">
-    <img alt="Twitter: Aryaveer Singh" src="https://img.shields.io/twitter/follow/AryaveerSingh.svg?style=social" target="_blank" />
-  </a>
 </p>
 
 <h2 align="center">Repository overview✔</h2>
